@@ -11,8 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber-reports/CucumberTests.xml",
                 "html:target/cucumber-reports/index.html"},
         glue = {"dz5/TestClass", "dz5/Hooks"},
-        features = "src/test/java/dz5/FeatureFiles",
-        tags = "@TestR"
+        features = "src/test/java/dz5/FeatureFiles"
 )
 public class RunCucumber {
     public RunCucumber() {

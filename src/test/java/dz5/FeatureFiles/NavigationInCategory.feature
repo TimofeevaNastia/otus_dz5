@@ -20,4 +20,4 @@ Feature: Check navigation in tab in main form
     Then I should see <countOfCourseFromTab> courses in list of tab '<nameOfCourse>'
     Examples:
       | nameOfCourse     | countOfCourseFromTab |
-      | Программирование | 52                   |
+      | Программирование | 53                   |

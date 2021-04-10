@@ -1,4 +1,3 @@
-@TestR
 Feature: Check event tab
   Scenario: Go to calendar of course
     Given I open by 'https://otus.ru/'

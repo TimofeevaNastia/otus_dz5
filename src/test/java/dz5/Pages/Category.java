@@ -4,11 +4,11 @@ import dz5.Driver.BaseClass;
 import org.openqa.selenium.By;
 import org.springframework.stereotype.Component;
 
-public class Сategory extends BaseClass {
+public class Category extends BaseClass {
     private By byListCourses=By.cssSelector(".lessons>a");
     private By byLabelCountCourses=By.cssSelector(".title-new__info-item");
-    private By becameTeacherTitle=By.cssSelector(".teachers-invite-header__title");
-    private By byBtnBecameTeacher=By.cssSelector("button[class='new-button new-button_blue new-button_md new-button_wh js-open-modal'][data-modal-id='teachers-request']");
+    private By becameTeacherTitle=By.cssSelector(".Header__Title-sc-1lka48j-2.etFYHE");
+    private By byBtnBecameTeacher=By.cssSelector(".Header__ButtonContainer-sc-1lka48j-5 button[class='styles__OldContainer-lfz3vn-0 fZgqAz']");
     private By byListTabBaseKnowledge=By.cssSelector("[class='nav nav_blue nav_mobile-fix'] a");
     private By byEventTitle1=By.cssSelector(".styles__Title-sc-1rp3iyu-8.hbMoDZ");
     private By byEventTitle2=By.cssSelector(".dod_new-header__title");

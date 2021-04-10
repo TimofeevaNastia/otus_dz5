@@ -7,4 +7,4 @@ Feature: Programming category
     And  I should see <countOfCourse> courses in title of section
     Examples:
       | countOfCourse | nameOfCourse     |
-      | 57            | Программирование |
+      | 58            | Программирование |

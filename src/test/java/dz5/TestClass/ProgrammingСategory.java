@@ -21,5 +21,6 @@ public class ProgrammingСategory  extends BaseClass {
     public void checkCountOfCourseOfLabel(int count) {
         Integer count1=(Integer)count;
         assertTrue(category.getCountOfCourse().contains(count1.toString()));
+
     }
 }

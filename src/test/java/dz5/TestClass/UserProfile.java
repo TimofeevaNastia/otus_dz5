@@ -1,14 +1,21 @@
 package dz5.TestClass;
 import dz5.Driver.BaseClass;
 import dz5.Pages.MainPage;
+import dz5.configSpring.Cfg;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ContextConfiguration;
 
 import static junit.framework.TestCase.assertEquals;
 
+@ContextConfiguration(classes = Cfg.class)
+@CucumberContextConfiguration
+@SpringBootTest()
 public class UserProfile  extends BaseClass {
 
     @Autowired

@@ -8,3 +8,4 @@ Feature: Programming category
     Examples:
       | countOfCourse | nameOfCourse     |
       | 57            | Программирование |
+      | 4            | GameDev |

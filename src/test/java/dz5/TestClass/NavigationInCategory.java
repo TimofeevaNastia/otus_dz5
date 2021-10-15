@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 
 import static junit.framework.TestCase.assertEquals;
 
+
 public class NavigationInCategory extends BaseClass {
 
     @Autowired
